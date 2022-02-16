@@ -1,12 +1,12 @@
-$font-path : "/fonts" !default;
+$font-path : "/src/fonts" !default;
 
 @font-face {
   font-family: 'arunicon';
-  src: url('#{$font-path}/iconmoon.eot?wxz8m6');
-  src: url('#{$font-path}/iconmoon.eot?wxz8m6#iefix') format('embedded-opentype'),
-  url('#{$font-path}/iconmoon.ttf?wxz8m6') format('truetype'),
-  url('#{$font-path}/iconmoon.woff?wxz8m6') format('woff'),
-  url('#{$font-path}/iconmoon.svg?wxz8m6#iconmoon') format('svg');
+  src: url('#{$font-path}/arunicon.eot?wxz8m6');
+  src: url('#{$font-path}/arunicon.eot?wxz8m6#iefix') format('embedded-opentype'),
+  url('#{$font-path}/arunicon.ttf?wxz8m6') format('truetype'),
+  url('#{$font-path}/arunicon.woff?wxz8m6') format('woff'),
+  url('#{$font-path}/arunicon.svg?wxz8m6#arunicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

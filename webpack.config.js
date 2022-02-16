@@ -47,7 +47,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(ttf|eot|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        test: /\.(ttf|eot|woff|woff2|svg)?$/,
         use: [
           {
             loader: "file-loader",
@@ -137,16 +137,6 @@ module.exports = {
         },
       }),
     ],
-    splitChunks: {
-      cacheGroups: {
-        styles: {
-          test: /\.css$/,
-          name: "styles",
-          chunks: "all",
-          enforce: true,
-        },
-      },
-    },
   },
   plugins: [
     new MiniCssExtractPlugin({
